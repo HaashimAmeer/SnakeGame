@@ -5,13 +5,16 @@ body {
 }
 
 .grid {
+  display: flex;
+  flex-wrap: wrap;
   width: 200px;
   height: 200px;
   border: solid black 2px;
 }
 
 /* styling all divs within "grid" class */
-.grid div {
+.square {
   width: 20px;
   height: 20px;
+  background-color: blue;
 }

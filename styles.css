@@ -1,0 +1,17 @@
+html,
+body {
+  margin: 10;
+  padding: 10;
+}
+
+.grid {
+  width: 200px;
+  height: 200px;
+  border: solid black 2px;
+}
+
+/* styling all divs within "grid" class */
+.grid div {
+  width: 20px;
+  height: 20px;
+}
